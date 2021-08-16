@@ -1,5 +1,3 @@
-// $(document).ready(function() {  
-
   var theWorld = ["earth", "africa+contenent", "antarctica+contenent", "asia", "australia+contenent", "europe+contenent", "north+america", "south+america" ]
   
   var x = [theWorld[0]];
@@ -37,7 +35,7 @@ function theRequest() {
   var key = "b8166dc140c94f118151f1da044858ea";
   var queryEarth = "https://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=" + key + "&limit=1";
     
-  //	the actual API call
+  //	the API call
   $.ajax({
     url: queryEarth, 
     method: "GET",
